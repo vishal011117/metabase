@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import cx from "classnames";
 
 export default class LogoIcon extends Component {
   static defaultProps = {
@@ -15,7 +14,7 @@ export default class LogoIcon extends Component {
   };
 
   render() {
-    let { dark, height, width, size } = this.props;
+    let { height, width, size } = this.props;
     return (
       <svg
            viewBox="0 0 32 32"
